@@ -1,0 +1,16 @@
+.home-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 600px;
+}
+
+.home-header-title {
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	font-size: 2rem;
+	font-weight: 600;
+	color: #1e293b;
+	position: relative;
+}

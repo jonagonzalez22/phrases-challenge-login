@@ -1,0 +1,16 @@
+.loginform {
+}
+
+.custom-password-field {
+	position: relative;
+}
+
+.icon-password {
+	position: absolute;
+	top: 34px;
+	left: 10px;
+}
+
+.custom-password-field > div > div {
+	width: 50px;
+}

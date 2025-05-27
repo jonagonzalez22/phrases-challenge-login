@@ -1,0 +1,46 @@
+:root {
+	--color-primary: #007bff;
+	--color-secondary: #6c757d;
+	--color-success: #28a745;
+	--color-danger: #dc3545;
+	--color-warning: #ffc107;
+	--color-info: #17a2b8;
+	--color-light: #f8f9fa;
+	--color-dark: #343a40;
+}
+
+.iconbutton {
+}
+
+.primary-outline {
+	background: none;
+	border: 2px solid var(--color-primary);
+	border-radius: 50%;
+	padding: 5px;
+
+	svg {
+		color: var(--color-primary);
+	}
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.danger-without-outline {
+	background: none;
+	border: none;
+	border-radius: 50%;
+	padding: 5px;
+
+	svg {
+		color: var(--color-danger);
+	}
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.iconbutton:active {
+	transform: scale(0.95);
+	transition: transform 0.1s ease-in-out;
+}

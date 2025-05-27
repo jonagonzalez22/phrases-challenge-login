@@ -1,0 +1,22 @@
+:root {
+	--card-background: #fff;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	background: var(--card-background);
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+	font-size: 0.875rem;
+}
+.card-buttons-container {
+	min-width: 26px;
+}
+
+.card:hover {
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
