@@ -1,15 +1,10 @@
 'use client';
 import React from 'react';
-import './Login.css';
 import { LoginForm } from '../../modules/login/LoginForm';
 
-export type LoginProps = {
-	// types...
-};
-
-const Login: React.FC<LoginProps> = ({}) => {
+const Login: React.FC = () => {
 	return (
-		<article className='main-login-container'>
+		<article>
 			<LoginForm />
 		</article>
 	);

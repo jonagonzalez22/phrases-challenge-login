@@ -9,9 +9,6 @@
 	--color-dark: #343a40;
 }
 
-.iconbutton {
-}
-
 .primary-outline {
 	background: none;
 	border: 2px solid var(--color-primary);

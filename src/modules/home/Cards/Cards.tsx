@@ -4,10 +4,6 @@ import './Cards.css';
 import { useCreatePhraseContext } from '../../../context/createPhrasesContext';
 import { Card } from '../../../components/Card';
 
-export type CardsProps = {
-	// types...
-};
-
 const EmptyCard = () => {
 	return (
 		<div className='empty-card'>
@@ -17,7 +13,7 @@ const EmptyCard = () => {
 	);
 };
 
-const Cards: React.FC<CardsProps> = ({}) => {
+const Cards: React.FC = () => {
 	const { filteredPhrases, removePhrase } = useCreatePhraseContext();
 
 	return (

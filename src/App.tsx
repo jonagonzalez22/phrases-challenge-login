@@ -1,4 +1,3 @@
-import './App.css';
 import { CreatePhrasesProvider } from './context/createPhrasesContext';
 import { Provider as ChacraProvider } from '@/components/ui/provider';
 import { RouterProvider } from 'react-router-dom';

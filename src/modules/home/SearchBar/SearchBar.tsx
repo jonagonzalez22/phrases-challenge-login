@@ -4,11 +4,7 @@ import './SearchBar.css';
 import { Input } from '../../../components/Input';
 import { useCreatePhraseContext } from '../../../context/createPhrasesContext';
 
-export type SearchBarProps = {
-	// types...
-};
-
-const SearchBar: React.FC<SearchBarProps> = ({}) => {
+const SearchBar: React.FC = () => {
 	const { filterPhrases } = useCreatePhraseContext();
 
 	const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {

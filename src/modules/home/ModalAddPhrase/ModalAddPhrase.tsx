@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import './ModalAddPhrase.css';
 import { Modal } from '../../../components/Modal';
 import { TextArea } from '../../../components/TextArea';
 import { useCreatePhraseContext } from '../../../context/createPhrasesContext';

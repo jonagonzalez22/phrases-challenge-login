@@ -8,7 +8,7 @@ import withTitle from '../../components/hoc/homeHeaderHoc';
 
 const HomeHeaderWithTitle = withTitle(HomeHeader, 'Mis Frases');
 
-const Home: React.FC = ({}) => {
+const Home: React.FC = () => {
 	return (
 		<article className='main-container-home'>
 			<HomeHeaderWithTitle />
