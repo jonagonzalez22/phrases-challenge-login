@@ -14,10 +14,10 @@ import {
 import { LuUser, LuLock } from 'react-icons/lu';
 import { useDispatch } from 'react-redux';
 import './LoginForm.css';
-import { login } from '@/redux/slices/authSlice';
+import { login } from '../../../redux/slices/authSlice';
 import { useNavigate } from 'react-router-dom';
-import { PasswordInput } from '@/components/ui/password-input';
-import { useColorModeValue } from '@/components/ui/color-mode';
+import { PasswordInput } from '../../../components/ui/password-input';
+import { useColorModeValue } from '../../../components/ui/color-mode';
 
 export type LoginFormProps = {};
 

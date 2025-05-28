@@ -11,4 +11,5 @@ module.exports = {
 		'\\.css$': '<rootDir>/jest-css-modules-mock.js',
 	},
 	testPathIgnorePatterns: ['/cypress/'],
+	setupFiles: ['<rootDir>/jest.setup.ts'],
 };
